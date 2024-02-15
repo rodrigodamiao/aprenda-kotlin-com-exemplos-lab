@@ -44,6 +44,7 @@ fun MachineLearning(){
     
     val formacaoML = Formacao("Machine Learning Specialist", Nivel.AVANCADO, listOf(conteudo1, conteudo2, conteudo3, conteudo4))
     formacaoML.matricular(Usuario("Lucas", 32, 17945268), listOf(conteudo1, conteudo2, conteudo3, conteudo4))
+    formacaoML.matricular(Usuario("Bruno", 30, 25430824), listOf(conteudo1, conteudo2, conteudo3, conteudo4))
 }
 
 fun main() {
